@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data from CSV with semicolon as separator
-csv_file_path = '/Users/adriaanmeyer/Desktop/SQL/Example 1.csv'
+csv_file_path = '/Users/adriaanmeyer/Documents/GitHub/Python-/Example 1.csv'
 df = pd.read_csv(csv_file_path, sep=';')
 
 # Print column names
